@@ -1,0 +1,143 @@
+body {
+	text-align: center;
+	color: #9966ff;
+	background-image: url(../images/galaxy.jpg);
+	font-family: 'Modak', cursive;
+	font-size: 1.5em;
+}
+
+.menuBar{
+    width: 100%;
+    height: 50px;
+    background-color: #8080ff;
+    margin-bottom: 50px;
+
+}
+
+
+
+.dropdown {
+    border: 2px solid #8080ff;
+    width: 33%;
+    float: left;
+    background-color: #8080ff;
+    border: none;
+    color: #8080ff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.drop {
+    border: 2px solid #8080ff;
+    width: 33%;
+    float: left;
+    background-color: #8080ff;
+    border: none;
+    color: #8080ff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.down {
+    border: 2px solid #8080ff;
+    width: 33%;
+    float: left;
+    background-color: #8080ff;
+    border: none;
+    color: #8080ff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #9966ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #9966ff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 32%
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+#gameArea {
+    border: solid 3px #ff00bf;
+    height: 700px;
+    width: 500px;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: #3333ff;
+
+}
+
+#moon{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
